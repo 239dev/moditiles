@@ -7,9 +7,16 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/', // Ensures assets are loaded from the root path
+  base: './', // Changed from '/' to './' for relative paths
   build: {
     outDir: 'dist', // Explicitly set build output directory
     assetsDir: 'assets', // Organize assets in a dedicated directory
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name]-[hash][extname]',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+      },
+    },
   },
 });
