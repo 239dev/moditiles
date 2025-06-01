@@ -78,7 +78,7 @@ const ContactSection: React.FC = () => {
               <h4 className="font-medium text-lg mb-4">Find Us On Map</h4>
               <div className="rounded-lg overflow-hidden h-64 bg-gray-100">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.990538338189!2d77.7175425!3d13.0333881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae116496310811%3A0x51499d2d84c633f!2sK%20Channasandra%2C%20Bengaluru%2C%20Karnataka%20560043%2C%20India!5e0!3m2!1sen!2sus!4v1678900000000!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0000000000005!2d77.680028!3d13.046750!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAyJzQ4LjMiTiA3N8KwNDAnNDguMSJF!5e0!3m2!1sen!2sin!4v1678900000000!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
